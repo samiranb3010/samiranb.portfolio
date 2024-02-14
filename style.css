@@ -1,0 +1,323 @@
+*{
+    box-sizing: border-box;
+    margin-top: 15px;
+    background: url('imgs/13.jpg') no-repeat fixed center;
+    background-size: cover;
+    
+     
+}
+
+html{
+    scroll-behavior: smooth;
+    
+    
+}
+
+h1{
+    margin: 200px 10px 10px 150px;
+    justify-content: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px white;
+    
+}
+
+button{
+   
+    background-color: t;
+    border: 1px solid black;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold ;
+    margin: 100px;
+    background:white ;
+    height: 50px;
+    border-radius: 15px;
+   
+   
+
+}
+
+button a{
+    color:black;
+    text-align: center;
+    text-decoration: none;
+    background: white;
+    height: 20px; 
+   
+}
+
+
+button:hover{
+    
+    box-shadow: 0 0 5px white, 0 0 15px white, 0 0 20px white;
+}
+
+
+/*                          HOME PAGE                        */
+/* NAVIGATION BAR */
+
+.nav{
+    align-items: center;
+    justify-content: center;
+}
+
+.nav ul{
+    
+    display:flex;
+    list-style: none;
+    align-items: left;
+    justify-content: left;
+    
+    
+}
+
+.nav ul li a{
+    margin: 30px;
+    text-decoration: none;
+    padding: 3px;
+    text-align: center;
+    font-size: 10px;
+    color: black;
+    font-weight: bold;
+    text-shadow:0 0 15px white;
+   
+    
+}
+.nav ul li a:hover{
+    color: red;
+    text-shadow: 0 0 3px white    ;
+              
+}
+
+/*                          ABOUT ME PAGE                        */
+
+
+
+
+.about{
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(27, 220, 63)
+    
+}
+.about h1{
+    
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    margin: 20px;
+    color: red;
+    font-weight: bold;
+    text-shadow: none;
+
+}
+
+.about p1{
+    font-size: 25px;
+    font-weight: bold;
+    
+    
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+}
+
+.expr ul {
+    list-style-type: square;
+    font-size: 25px;
+    margin: 0 0 0 25px;
+}
+
+
+/*                          SKILLS PAGE                        */
+
+#skills h1{
+    color: red;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    text-shadow: none;
+    margin: 150px 0 0 0;
+}
+
+.skill{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+
+}
+.skill img{
+    
+
+    height: 100px;
+    width: 100px;
+    margin:100px;
+    border: 5px solid blue;
+    border-radius: 10px;
+    box-shadow: 0 0 40px white;
+
+}
+
+.skill img:hover{
+    box-shadow: 0 0 40px red;
+    cursor: pointer;
+}
+
+
+
+
+/*                  CONTACT SECTION              */
+
+#contact h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    color:red ;
+    margin: 300px 0 100px 0px;
+    padding: 0px 0 0 0px ;
+    text-shadow: none;
+    display: flex;
+}
+
+.contact ul {
+    list-style: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.contact ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 8px;
+    margin: 100px;
+    padding: 10px;
+}
+
+.contact ul li a:hover{
+
+    color: blue;
+    
+}
+.contact ul li img{
+    height: 50px;
+    
+}
+
+/* /////////////////////////////////////////////////// I PAD SCREEN ////////////////////////////////////////////////////////////// */
+
+ @media only screen and (min-width: 768px){
+
+    /*                          HOME PAGE                        */
+/* NAVIGATION BAR */
+
+    .nav ul li a{
+        
+        font-size: 22px;
+          
+    }
+
+    /*                          ABOUT ME PAGE                        */
+
+    .about h1{
+           
+        font-size: 55px;
+        
+    }
+
+    /*                          SKILLS PAGE                        */
+    
+    #skills h1{
+        
+        font-size: 70px;
+        
+    }
+    
+    .skill img{ 
+    
+        height: 200px;
+        width: 200px;
+    }
+
+    /*                  CONTACT SECTION              */
+    
+    #contact h1{
+        
+        font-size: 70px;
+        
+    }
+    
+    .contact ul li a{
+        
+        font-size: 30px;
+        margin: 100px;
+        padding: 10px;
+    }
+ }
+
+
+ /* /////////////////////////////////////////////////// LAPTOP SCREEN ////////////////////////////////////////////////////////////// */
+
+ @media only screen and (min-width: 1000px){
+
+
+    h1{
+        font-size: 50px;
+    }
+
+    button{
+        font-size: 25px;
+    }
+    
+    /*                          HOME PAGE                        */
+/* NAVIGATION BAR */
+
+    .nav ul li a{
+        
+        font-size: 40px;
+        padding: 30px;
+          
+    }
+
+    /*                          ABOUT ME PAGE                        */
+
+    .about h1{
+           
+        font-size: 100px;
+        
+    }
+    
+    /*                          SKILLS PAGE                        */
+    
+    #skills h1{
+        
+        font-size: 100px;
+        
+    }
+    
+    .skill img{ 
+    
+        height: 300px;
+        width: 300px;
+    }
+   
+    /*                  CONTACT SECTION              */
+
+    #contact h1{
+        
+        font-size: 70px;
+        
+    }
+    
+    .contact ul li a{
+       
+        font-size: 50px;
+        margin: 100px;
+        padding: 10px;
+    }
+
+    .contact ul li img{
+        height: 100px;
+        
+    }
+
+ }
